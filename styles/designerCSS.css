@@ -1,0 +1,217 @@
+.strokeText{
+     color: transparent; 
+  -webkit-text-stroke: 1px var(--secondary-color); 
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+.marquee {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.marquee1, .marquee2 {
+  width: 100vw;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.marquee1 .track img{
+  animation: scrollLeft 16s linear infinite;
+  
+}
+
+.marquee2 .track img{
+  animation: scrollRight 16s linear infinite;
+}
+
+/* Hover slows down */
+.marquee:hover .track {
+  animation-duration: 40s;
+}
+
+/* Keyframes for leftward scroll */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Keyframes for rightward scroll */
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Image styling */
+.track{
+  opacity:0.3;
+  width: 100vw;
+  justify-content: space-around;
+}
+.track img {
+  margin: 0 10px;
+  flex-shrink: 0;
+  filter: grayscale(1);
+  height: 20px;
+  width:auto;
+}
+
+
+#text-split .text-xl {
+  font-size: 1.5rem;
+  color: currentColor;
+  letter-spacing: 0.06em;
+  line-height: 1.35;
+} 
+
+
+
+.droppingText {
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  color: var(--primary-color);
+  animation: dropIn 2s ease-out forwards;
+  animation-delay: 1s; /* Starts after the last dot finishes */
+}
+
+@keyframes dropIn {
+  0% {
+    top: -50px;
+    opacity: 1;
+  }
+  60% {
+    top: 10px;
+    opacity: 0;
+  }
+  70%{
+    opacity: 0.2;
+    transform: rotate(10deg);
+  }
+  80%{
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  80%{
+    opacity: 0.2;
+    transform: rotate(-10deg);
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
+
+
+/* Base hidden state */
+.hdName h2 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Delay them so they come one after another */
+.hdName h2:nth-child(1) {
+  animation-delay: 4s;
+}
+
+.hdName h2:nth-child(2) {
+  animation-delay: 4.2s;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hdSubheads h3 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Delay them so they come one after another */
+.hdSubheads h3:nth-child(1) {
+  animation-delay: 5s;
+}
+
+.hdSubheads h3:nth-child(2) {
+  animation-delay: 5.1s;
+}
+.hdSubheads h3:nth-child(3) {
+  animation-delay: 5.2s;
+}
+
+
+.expertise p{
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+.expertise p:nth-child(1) {
+  animation-delay: 6s;
+}
+.expertise p:nth-child(2) {
+  animation-delay: 6.05s;
+}
+.expertise p:nth-child(3) {
+  animation-delay: 6.1s;
+}
+.expertise p:nth-child(4) {
+  animation-delay: 6.15s;
+}
+.expertise p:nth-child(5) {
+  animation-delay: 6.2s;
+}
+
+.inaction p{
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+.inaction p:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.inaction p:nth-child(2) {
+  animation-delay: 1.2s;
+}
+
+
+.projDescBox {
+  transform: rotate(0deg);
+  transition: transform 0.6s ease;
+  will-change: transform;
+}
+
+.oraRed{
+  color: #ab0c2c;
+}
+
+.bioGreen{
+  color: #0c7a55;
+}
+
+
+

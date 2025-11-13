@@ -1,0 +1,49 @@
+body{
+    margin-top:200px;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;  
+}
+
+img.breadcrumbProfilepic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.junaidGrey{
+    color:#963c52;
+}
+.lineBreak{
+    height: 1px;
+    background-color: var(--grey-1);
+}
+
+.subCrumb a{
+    text-decoration: none;
+}
+.previewLink{
+    color: var(--primary-color);
+    
+    transform: all 0.3s ease;
+}
+.previewLinkgrey{
+    
+    background-color: #272324;
+
+}
+
+
+.previewLink:hover{
+    scale: 1.1;
+    
+    color: var(--black);
+    transition: all 0.3s ease;
+}
+.previewLinkgrey:hover{
+    
+    background-color: #e34040;
+    
+}

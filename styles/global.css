@@ -1,0 +1,220 @@
+
+.dFlex{
+    display:flex;
+}
+.dGrid{
+    display: grid;
+}
+.dNone{
+    display: none;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+.jcs{
+    justify-content: flex-start;
+}
+.jcc{
+    justify-content: center;
+}
+
+.jcsa{
+    justify-content: space-around;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.jce{
+    justify-content: flex-end;
+}
+.aifs{
+    align-items: flex-start;
+}
+.aic{
+    align-items: center;
+}
+
+.ace{
+    align-items: end;
+}
+
+.fww{
+    flex-wrap: wrap;
+}
+.taL{
+    text-align:left;
+}
+.taR{
+    text-align: right;
+}
+.taC{
+    text-align: center;
+}
+.f03{
+    flex: 0 0 30%;
+}
+.f07{
+    flex: 0 0 70%;
+}
+.f1{
+    flex: 1;
+}
+.fhalf{
+    flex: 0.5;
+}
+.br8{
+    border-radius: 8px;
+}
+.br10{
+    border-radius: 10px;
+}   
+.br20{
+    border-radius: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.font400{
+    font-weight: 400;
+}
+.font450{
+    font-weight: 450;
+}
+.font500{
+    font-weight: 500;
+}
+.font550{
+    font-weight: 550;
+}
+.font600{
+    font-weight: 600;
+}
+.font650{
+    font-weight: 650;
+}
+.font700{
+    font-weight: 700;
+}
+.font750{
+    font-weight: 750;
+}
+.font800{
+    font-weight: 800;
+}
+.font850{
+    font-weight: 850;
+}
+.font900{
+    font-weight: 900;
+}
+
+.ls0{
+    letter-spacing: 0;
+}
+
+.g8{
+    gap:8px;
+}
+.g10{
+    gap: 10px;
+
+}
+
+.g20{
+    gap: 20px;
+}
+.g40{
+    gap: 40px;
+}
+.g80{
+    gap: 80px;
+}
+.h100{
+    height: 100%;
+}
+
+
+.m0{
+    margin: 0;
+}
+.opac20{
+    opacity: 0.2;
+}
+.pt100{
+    padding-top: 100px;
+}
+.p0{
+    padding: 0;
+}
+.p10{
+    padding: 10px;
+}
+.p20{
+    padding: 20px;
+}
+.p32{
+    padding: 32px;
+}
+.p40{
+    padding: 40px;
+}
+.w100{
+    width: 100%;
+}
+
+.h100vh{
+    height: 100vh;
+}  
+.w100vw{
+    width: 100vw;
+} 
+
+.pRL20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+.colorGrey{
+    color:var(--grey-1);
+}
+.pAbsolute{
+    position: absolute;
+}
+.pFixed{
+    position: fixed;
+}
+.pRelative{
+    position: relative;
+}
+.pT40{
+    padding-top: 40px;
+}
+.pT80{
+    padding-top: 80px;
+}
+.tCap{
+    text-transform: capitalize;
+}
+.tUp{
+    text-transform: uppercase;
+}
+
+.ofH{
+    overflow: hidden;
+}
+
+.o0{
+    opacity: 0;
+}
+
+.sansation {
+  font-family: 'Sansation', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

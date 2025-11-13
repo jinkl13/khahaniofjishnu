@@ -1,0 +1,38 @@
+body{
+    margin-top:200px;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;  
+}
+
+img.breadcrumbProfilepic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.deonColor{
+    color:#F0E224;
+}
+.lineBreak{
+    height: 1px;
+    background-color: var(--grey-1);
+}
+
+.subCrumb a{
+    text-decoration: none;
+}
+.previewLink{
+    color: var(--primary-color);
+    background-color: #F0A519;
+    transform: all 0.3s ease;
+}
+
+.previewLink:hover{
+    scale: 1.1;
+    background-color: #F0E224;
+    color: var(--black);
+    transition: all 0.3s ease;
+}

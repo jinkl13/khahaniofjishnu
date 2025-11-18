@@ -1,0 +1,8 @@
+title: My Site
+description: A simple Jekyll site
+baseurl: "" # Leave blank if deploying to root
+url: "https://jinkl13.github.io" 
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed

@@ -1022,7 +1022,7 @@ input.credentials.f1 {
         grid-template-rows: repeat(2, auto);
 
     }
-    a {
+    .navLinks a {
         font-size: 12px;
     }
     .expertise p {
@@ -1040,6 +1040,6 @@ input.credentials.f1 {
     	justify-content: center;
     }
     .pricing {
-    	height: fit-content;
+    	height: fit-content !important;
     }
 }

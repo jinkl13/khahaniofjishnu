@@ -1042,4 +1042,7 @@ input.credentials.f1 {
     	flex-direction: column;
     	justify-content: center;
     }
+    .pricing {
+    	height: fit-content;
+    }
 }

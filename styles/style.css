@@ -1024,6 +1024,7 @@ input.credentials.f1 {
     }
     .navLinks a {
         font-size: 12px;
+        padding:8px;
     }
     .expertise p {
         font-size: 10px !important;

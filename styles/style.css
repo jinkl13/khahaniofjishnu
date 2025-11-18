@@ -1038,4 +1038,8 @@ input.credentials.f1 {
     .footerRight {
         flex-direction: column;
     }
+    .heroDiv1 {
+    	flex-direction: column;
+    	justify-content: center;
+    }
 }
